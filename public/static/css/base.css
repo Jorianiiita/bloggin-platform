@@ -44,3 +44,6 @@ body * {
   padding-top: 20px;
   border-top: 1px solid #cacaca;
 }
+.text-center {
+  text-align: center;
+}
