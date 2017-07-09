@@ -19,7 +19,7 @@ function App (props) {
       <div>
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route path='/article' component={Article} />
+          <Route exact path='/article' component={Article} />
           <Route path='*' component={NotFound} />
         </Switch>
       </div>
