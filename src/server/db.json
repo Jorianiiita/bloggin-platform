@@ -2,48 +2,20 @@
   "articles": [
     {
       "id": 1,
-      "title": "Programming is hard. That’s precisely why you should learn it.",
-      "image_url": "https://cdn-images-1.medium.com/max/2000/1*brjYnVlXwM3j_SWXImT0Rg.png",
-      "description": "Spatial computing is beginning the slow crawl to maturity. As the technology develops into something simultaneously more complex and also more stable, new areas of possibility open and grow. Since the beginning, avid enthusiasts have seen hope of a reformation of the real estate industry with the help of spatial computing, but it’s only now that real solutions are starting to be feasible.",
-      "timestamp": "2017-07-07"
+      "title": "Does VR Have a Future?",
+      "image_url": "https://cdn-images-1.medium.com/max/800/0*F5OefxiKoLucEQgL.png",
+      "description": "Last year, it seemed like we were seeing an endless parade of articles about virtual reality’s future. MIT invented video you could touch, eye-tracking was released at the beginning of the year, and someone kickstarted an omni-directional treadmill that should have ushered in a Ready Player One-style entertainment future. But today, a person still can’t walk through a photograph of their child’s birthday party. There are no video arcades in North America where players can strap themselves into fully immersive treadmills (or if there are, they certainly aren’t yet well known). And if you reach out to touch video, you’ll get a fist-full of nothing. Critics are beginning to ask, what happened to VR’s future?",
+      "timestamp": "2017-06-09"
     },
     {
       "id": 2,
-      "title": "Programming is hard. That’s precisely why you should learn it.",
-      "image_url": "https://cdn-images-1.medium.com/max/2000/1*brjYnVlXwM3j_SWXImT0Rg.png",
-      "description": "Spatial computing is beginning the slow crawl to maturity. As the technology develops into something simultaneously more complex and also more stable, new areas of possibility open and grow. Since the beginning, avid enthusiasts have seen hope of a reformation of the real estate industry with the help of spatial computing, but it’s only now that real solutions are starting to be feasible.",
-      "timestamp": "2017-07-07"
+      "title": "Composing Software: An Introduction",
+      "image_url": "https://cdn-images-1.medium.com/max/800/1*uVpU7iruzXafhU2VLeH4lw.jpeg",
+      "description": "In my first high school programming class, I was told that software development is “the act of breaking a complex problem down into smaller problems, and composing simple solutions to form a complete solution to the complex problem.” One of my biggest regrets in life is that I failed to understand the significance of that lesson early on. I learned the essence of software design far too late in life.",
+      "timestamp": "2017-05-18"
     },
     {
       "id": 3,
-      "title": "Programming is hard. That’s precisely why you should learn it.",
-      "image_url": "https://cdn-images-1.medium.com/max/2000/1*brjYnVlXwM3j_SWXImT0Rg.png",
-      "description": "Spatial computing is beginning the slow crawl to maturity. As the technology develops into something simultaneously more complex and also more stable, new areas of possibility open and grow. Since the beginning, avid enthusiasts have seen hope of a reformation of the real estate industry with the help of spatial computing, but it’s only now that real solutions are starting to be feasible.",
-      "timestamp": "2017-07-07"
-    },
-    {
-      "id": 4,
-      "title": "Programming is hard. That’s precisely why you should learn it.",
-      "image_url": "https://cdn-images-1.medium.com/max/2000/1*brjYnVlXwM3j_SWXImT0Rg.png",
-      "description": "Spatial computing is beginning the slow crawl to maturity. As the technology develops into something simultaneously more complex and also more stable, new areas of possibility open and grow. Since the beginning, avid enthusiasts have seen hope of a reformation of the real estate industry with the help of spatial computing, but it’s only now that real solutions are starting to be feasible.",
-      "timestamp": "2017-07-07"
-    },
-    {
-      "id": 5,
-      "title": "Programming is hard. That’s precisely why you should learn it.",
-      "image_url": "https://cdn-images-1.medium.com/max/2000/1*brjYnVlXwM3j_SWXImT0Rg.png",
-      "description": "Spatial computing is beginning the slow crawl to maturity. As the technology develops into something simultaneously more complex and also more stable, new areas of possibility open and grow. Since the beginning, avid enthusiasts have seen hope of a reformation of the real estate industry with the help of spatial computing, but it’s only now that real solutions are starting to be feasible.",
-      "timestamp": "2017-07-07"
-    },
-    {
-      "id": 6,
-      "title": "Programming is hard. That’s precisely why you should learn it.",
-      "image_url": "https://cdn-images-1.medium.com/max/2000/1*brjYnVlXwM3j_SWXImT0Rg.png",
-      "description": "Spatial computing is beginning the slow crawl to maturity. As the technology develops into something simultaneously more complex and also more stable, new areas of possibility open and grow. Since the beginning, avid enthusiasts have seen hope of a reformation of the real estate industry with the help of spatial computing, but it’s only now that real solutions are starting to be feasible.",
-      "timestamp": "2017-07-07"
-    },
-    {
-      "id": 7,
       "title": "Programming is hard. That’s precisely why you should learn it.",
       "image_url": "https://cdn-images-1.medium.com/max/2000/1*brjYnVlXwM3j_SWXImT0Rg.png",
       "description": "Spatial computing is beginning the slow crawl to maturity. As the technology develops into something simultaneously more complex and also more stable, new areas of possibility open and grow. Since the beginning, avid enthusiasts have seen hope of a reformation of the real estate industry with the help of spatial computing, but it’s only now that real solutions are starting to be feasible.",
@@ -53,6 +25,93 @@
   "details": [
     {
       "id": 1,
+      "title": "Does VR Have a Future?",
+      "image_url": "https://cdn-images-1.medium.com/max/800/0*F5OefxiKoLucEQgL.png",
+      "description": "Last year, it seemed like we were seeing an endless parade of articles about virtual reality’s future. MIT invented video you could touch, eye-tracking was released at the beginning of the year, and someone kickstarted an omni-directional treadmill that should have ushered in a Ready Player One-style entertainment future. But today, a person still can’t walk through a photograph of their child’s birthday party. There are no video arcades in North America where players can strap themselves into fully immersive treadmills (or if there are, they certainly aren’t yet well known). And if you reach out to touch video, you’ll get a fist-full of nothing. Critics are beginning to ask, what happened to VR’s future?",
+      "timestamp": "2017-06-09",
+      "comments": [
+        {
+          "name": "Andy Bettisworth",
+          "image_url": "https://cdn-images-1.medium.com/fit/c/36/36/1*El_Z2uPmAf66brk7PlDSTQ.png",
+          "text": "Great article. I’ve been watching the standards for web vr and I have no doubt vr is about to gain massive traction (power of the web). The key standard is the glTF 2.0 released by Kronos this year? Also any developer interested in playing with this tech should check out Mozilla’s open source project https://aframe.io/examples/.",
+          "timestamp": "2017-06-16",
+          "likes": 4
+        },
+        {
+          "name": "Mihály Borbély",
+          "image_url": "https://cdn-images-1.medium.com/fit/c/36/36/0*BTlwpHn9mkfIgd-c.jpg",
+          "text": "I don’t disagree, but lets not forget that VR had its first hype wave in the 90s, so we really shouldn’t be too far from mainstream adoption according to the analogies you cite here.",
+          "timestamp": "2017-06-10",
+          "likes": 4,
+          "replies": [
+            {
+              "name": "Hammer & Tusk",
+              "image_url": "https://cdn-images-1.medium.com/fit/c/36/36/1*JPBgSacXBbdVhrXw3dtUEg.png",
+              "text": "There’s definitely truth to that, but all of the figures we quote here begin the timeline at consumer models; computers were available for researchers and really enthusiastic first adopters many years earlier! So we didn’t include the first VR boom and bust, but we also didn’t include the first twenty-thirty years of computers slowly crawling towards how we know of them today.",
+              "timestamp": "2017-06-12",
+              "likes": 1
+            }
+          ]
+        },
+        {
+          "name": "Peter",
+          "image_url": "https://cdn-images-1.medium.com/fit/c/36/36/1*tvvJoiaADdQsDLCLl9FzEw.jpeg",
+          "text": "Just FYI, your title picture is actually of a very famous Irish politician, he was assassinated in the 1920’s and portrayed in a movie by Liam Neeson. Michael Collins (left hand-side purple man).",
+          "timestamp": "2017-06-16",
+          "likes": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Composing Software: An Introduction",
+      "image_url": "https://cdn-images-1.medium.com/max/800/1*uVpU7iruzXafhU2VLeH4lw.jpeg",
+      "description": "In my first high school programming class, I was told that software development is “the act of breaking a complex problem down into smaller problems, and composing simple solutions to form a complete solution to the complex problem.” One of my biggest regrets in life is that I failed to understand the significance of that lesson early on. I learned the essence of software design far too late in life.",
+      "timestamp": "2017-05-18",
+      "comments": [
+        {
+          "name": "Frederik Krautwald",
+          "image_url": "https://cdn-images-1.medium.com/fit/c/36/36/0*9mB9QY9l2p-DdjNI.jpeg",
+          "text": "Point-free can not be taken too far :D",
+          "timestamp": "2017-05-19",
+          "likes": 2,
+          "replies": [
+            {
+              "name": "Eric Elliott",
+              "image_url": "https://cdn-images-1.medium.com/fit/c/36/36/0*WgY9B-Lm4DnCEHlO.jpeg",
+              "text": "Maybe you’ve never seen an entire app expressed as one giant point-free expression lacking concrete names for things because litterally everything is generically abstract… it can be taken to serious extremes, and some FP purists do so. What they produce is arguably a work of art, but also incomprehensible to anyone but the author.",
+              "timestamp": "2017-05-20",
+              "likes": 6
+            }
+          ]
+        },
+        {
+          "name": "Mihály Borbély",
+          "image_url": "https://cdn-images-1.medium.com/fit/c/36/36/0*BTlwpHn9mkfIgd-c.jpg",
+          "text": "I don’t disagree, but lets not forget that VR had its first hype wave in the 90s, so we really shouldn’t be too far from mainstream adoption according to the analogies you cite here.",
+          "timestamp": "2017-06-10",
+          "likes": 4,
+          "replies": [
+            {
+              "name": "Hammer & Tusk",
+              "image_url": "https://cdn-images-1.medium.com/fit/c/36/36/1*JPBgSacXBbdVhrXw3dtUEg.png",
+              "text": "There’s definitely truth to that, but all of the figures we quote here begin the timeline at consumer models; computers were available for researchers and really enthusiastic first adopters many years earlier! So we didn’t include the first VR boom and bust, but we also didn’t include the first twenty-thirty years of computers slowly crawling towards how we know of them today.",
+              "timestamp": "2017-06-12",
+              "likes": 1
+            }
+          ]
+        },
+        {
+          "name": "Peter",
+          "image_url": "https://cdn-images-1.medium.com/fit/c/36/36/1*tvvJoiaADdQsDLCLl9FzEw.jpeg",
+          "text": "Just FYI, your title picture is actually of a very famous Irish politician, he was assassinated in the 1920’s and portrayed in a movie by Liam Neeson. Michael Collins (left hand-side purple man).",
+          "timestamp": "2017-06-16",
+          "likes": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
       "title": "Programming is hard. That’s precisely why you should learn it.",
       "image_url": "https://cdn-images-1.medium.com/max/2000/1*brjYnVlXwM3j_SWXImT0Rg.png",
       "description": "Spatial computing is beginning the slow crawl to maturity. As the technology develops into something simultaneously more complex and also more stable, new areas of possibility open and grow. Since the beginning, avid enthusiasts have seen hope of a reformation of the real estate industry with the help of spatial computing, but it’s only now that real solutions are starting to be feasible.",
@@ -66,44 +125,22 @@
           "likes": 2,
           "replies": [
             {
-              "name": "Maria T Vidal",
-              "image_url": "https://cdn-images-1.medium.com/fit/c/72/72/1*18gBQrHsuUSZJYEw2mdGYA@2x.jpeg",
-              "text": "Jason V. Holmes  you deserve a good review. I have a lot to learn from you.",
-              "timestamp": "2017-07-10",
-              "likes": 2
-            },
-            {
-              "name": "Maria T Vidal",
-              "image_url": "https://cdn-images-1.medium.com/fit/c/72/72/1*18gBQrHsuUSZJYEw2mdGYA@2x.jpeg",
-              "text": "Jason V. Holmes  you deserve a good review. I have a lot to learn from you.",
-              "timestamp": "2017-07-10",
-              "likes": 2
-            },
-            {
               "name": "Jason V. Holmes",
               "image_url": "https://cdn-images-1.medium.com/fit/c/36/36/0*SDvKYg3NaJZ0ZKIc.jpg",
               "text": "Good post Maria and thank you for including Proof in your post. It’s a pleasure to have you part of our community.",
               "timestamp": "2017-07-10",
               "likes": 1
+            },
+            {
+              "name": "Maria T Vidal",
+              "image_url": "https://cdn-images-1.medium.com/fit/c/72/72/1*18gBQrHsuUSZJYEw2mdGYA@2x.jpeg",
+              "text": "Mauricio Santamaria glad you liked it. There’s a lot to say about this topic.",
+              "timestamp": "2017-07-10",
+              "likes": 0
             }
           ]
-        },
-        {
-          "name": "Jason V. Holmes",
-          "image_url": "https://cdn-images-1.medium.com/fit/c/36/36/0*SDvKYg3NaJZ0ZKIc.jpg",
-          "text": "Good post Maria and thank you for including Proof in your post. It’s a pleasure to have you part of our community.",
-          "timestamp": "2017-07-10",
-          "likes": 1
-        },
-        {
-          "name": "Maria T Vidal",
-          "image_url": "https://cdn-images-1.medium.com/fit/c/72/72/1*18gBQrHsuUSZJYEw2mdGYA@2x.jpeg",
-          "text": "Mauricio Santamaria glad you liked it. There’s a lot to say about this topic.",
-          "timestamp": "2017-07-10",
-          "likes": 0
         }
       ]
     }
   ]
-
 }

@@ -19,6 +19,10 @@
   },
   "scripts": {
     "build": "webpack --config config/webpack.development.config.js",
-    "watch": "webpack --config config/webpack.development.config.js --watch"
+    "watch": "webpack --config config/webpack.development.config.js --watch",
+    "start": "npm run build & node src/server/server.js  "
+  },
+  "engines": {
+    "node": "8.1.0"
   }
 }
