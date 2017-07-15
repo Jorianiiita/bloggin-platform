@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Home from './pages/Home.jsx'
+import Article from './pages/Article.jsx'
 
 function NotFound () {
   return (
@@ -18,6 +19,7 @@ function App (props) {
       <div>
         <Switch>
           <Route exact path='/' component={Home} />
+          <Route exact path='/article' component={Article} />
           <Route path='*' component={NotFound} />
         </Switch>
       </div>

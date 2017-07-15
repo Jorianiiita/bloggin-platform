@@ -1,0 +1,126 @@
+.zs-card-container {
+  height: 280px;
+  position: relative;;
+}
+.zs-card-container::after {
+  padding-top: 107%;
+  display: block;
+  content: '';
+}
+.zs-card {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.zs-card-info {
+  line-height: 16px;
+  font-size: 14px;
+}
+.zs-card-image {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.zs-card-title{
+  font-size: 18px;
+  letter-spacing: -0.1px;
+  margin-bottom: 15px;
+  letter-spacing: 0.2px;
+}
+.zs-card-buttons {
+  height: 36px;
+  font-size: 12px;
+  border-top: 1px solid #ececec;
+}
+.zs-card-button-wrapper {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  padding: 13px 14px 12px 14px;
+  cursor: pointer;
+}
+.zs-card-button-wrapper:first-child {
+  border-right: 1px solid #ececec;
+}
+.zs-card-button {
+  text-decoration: none;
+  font-size: inherit;
+}
+.zs-card-button:first-child {
+  border-radius: 0px;
+}
+.tick-icon {
+  vertical-align: sub;
+}
+.wrong-icon {
+  vertical-align: sub;
+}
+
+.zs-card {
+  background-color: white;
+  color: #9b9b9b;
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,.1)!important;
+  border-top-color: rgba(0, 0, 0, 0.1);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-right-color: rgba(0, 0, 0, 0.1);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: rgba(0, 0, 0, 0.1);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+}
+.zs-card:hover {
+  box-shadow: 0px 2px 8px 0px rgba(0,0,0,.08);
+}
+.zs-card-image {
+  background-color: #f5f5f5;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.zs-card-info {
+  height: 240px;
+}
+.zs-card-title{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-family: Montserrat;
+  line-height: 1.2em;
+  color: #000;
+}
+.zs-card-button-wrapper:hover {
+  color: #20c05c;
+  background-color: #fcfcfc; 
+}
+.zs-card-button {
+  color: inherit;
+}
+.zs-card-content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-height: 1.5em;
+  max-height: 3em;
+  margin-top: 5px;
+}
+.zs-card-description {
+  padding: 0px 20px;
+}
+.zs-card-timestamp {
+  margin-top: 15px;
+  font-size: 12px; 
+}
