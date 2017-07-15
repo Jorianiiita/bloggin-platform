@@ -4,7 +4,7 @@ import { API_HOST } from 'config'
 import { getURLParams } from './../modules/lib.js'
 import ArticleTemplate from './../components/articleTemplate.jsx'
 import Comment from './../components/comment.jsx'
-import Layout from './Layout.jsx'
+import Layout from './../components/Layout.jsx'
 
 class Article extends Component {
   constructor (props) {

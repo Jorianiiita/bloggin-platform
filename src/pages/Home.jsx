@@ -3,7 +3,7 @@ import Card from './../components/card.jsx'
 import API from './../modules/api.js'
 import { API_HOST } from 'config'
 import { Grid, GridCell } from './../components/grid.jsx'
-import Layout from './Layout.jsx'
+import Layout from './../components/Layout.jsx'
 
 class Home extends Component {
   constructor (props) {
