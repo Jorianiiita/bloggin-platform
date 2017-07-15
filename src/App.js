@@ -18,8 +18,8 @@ function App (props) {
     <Router>
       <div>
         <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/article' component={Article} />
+          <Route exact path='/bloging-platform/' component={Home} />
+          <Route exact path='/bloging-platform/article' component={Article} />
           <Route path='*' component={NotFound} />
         </Switch>
       </div>

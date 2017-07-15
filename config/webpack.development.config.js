@@ -16,7 +16,7 @@ includeDirs.forEach(function (dir) {
 
 function readDirR (dir) {
   return fs.statSync(dir).isDirectory()
-    ? Array.prototype.concat(...fs.readdirSync(dir).map(f => readDirR(path.join(dir, f))))
+    ? Array.prototype.concat(fs.readdirSync(dir).map(f => readDirR(path.join(dir, f))))
     : dir
 }
 module.exports = {

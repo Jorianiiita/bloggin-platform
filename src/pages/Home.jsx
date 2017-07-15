@@ -26,7 +26,7 @@ class Home extends Component {
   render () {
     let {data} = this.state
     let listItems = data.map(function (item, index) {
-      item.href = `/article?id=${item.id}`
+      item.href = `/bloging-platform/article?id=${item.id}`
       return (
         <GridCell key={index}>
           <Card data={item} />

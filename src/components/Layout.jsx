@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Header (props) {
   return (
     <div className='header-wrapper'>
-      <Link className='header-title' to='/'>
+      <Link className='header-title' to='/bloging-platform'>
       {props.title}
       </Link>
     </div>
