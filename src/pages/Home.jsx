@@ -8,7 +8,7 @@ import Layout from './../components/Layout.jsx'
 class Home extends Component {
   constructor (props) {
     super(props)
-    this.api = new API({url: API_HOST + '/articles'})
+    this.api = new API({url: API_HOST + 'articles'})
     this.state = {
       data: []
     }

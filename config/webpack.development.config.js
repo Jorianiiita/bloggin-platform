@@ -21,7 +21,7 @@ function readDirR (dir) {
 }
 module.exports = {
   context: APP_DIR,
-  devtool: 'eval-source-map',
+  devtool: 'cheap-module-source-map',
   entry: {
     'bundle.js': ['./App.js'],
     'style.css': themeFiles
@@ -56,12 +56,17 @@ module.exports = {
       }
     }),
     new webpack.optimize.UglifyJsPlugin({
-      minimize: true,
-      sourceMap: true
+      minimize: false,
+      sourceMap: false,
+      compressor: {
+        warnings: false
+      },
+      comments: false,
+      minimize: false
     }),
     new webpack.DefinePlugin({
       'process.env': {
-        'NODE_ENV': JSON.stringify('development')
+        'NODE_ENV': JSON.stringify('production')
       }
     })
   ],

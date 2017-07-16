@@ -13,7 +13,7 @@ class Article extends Component {
       data: {}
     }
     this.id = getURLParams()['id']
-    this.api = new API({url: API_HOST + '/details' + `/${this.id}`})
+    this.api = new API({url: API_HOST + 'details' + `/${this.id}`})
   }
 
   componentWillMount () {
