@@ -38,7 +38,7 @@ class Home extends Component {
 
   render () {
     const loader = <div className='loader'>
-                     Loading ...
+                     Loading&hellip;
                    </div>
     let {data} = this.state
     let listItems = data.map(function (item, index) {

@@ -28,7 +28,26 @@
       "title": "Does VR Have a Future?",
       "image_url": "https://cdn-images-1.medium.com/max/800/0*F5OefxiKoLucEQgL.png",
       "description": "Last year, it seemed like we were seeing an endless parade of articles about virtual reality’s future. MIT invented video you could touch, eye-tracking was released at the beginning of the year, and someone kickstarted an omni-directional treadmill that should have ushered in a Ready Player One-style entertainment future. But today, a person still can’t walk through a photograph of their child’s birthday party. There are no video arcades in North America where players can strap themselves into fully immersive treadmills (or if there are, they certainly aren’t yet well known). And if you reach out to touch video, you’ll get a fist-full of nothing. Critics are beginning to ask, what happened to VR’s future?",
-      "timestamp": "2017-06-09",
+      "timestamp": "2017-06-09"
+    },
+    {
+      "id": 2,
+      "title": "Composing Software: An Introduction",
+      "image_url": "https://cdn-images-1.medium.com/max/800/1*uVpU7iruzXafhU2VLeH4lw.jpeg",
+      "description": "In my first high school programming class, I was told that software development is “the act of breaking a complex problem down into smaller problems, and composing simple solutions to form a complete solution to the complex problem.” One of my biggest regrets in life is that I failed to understand the significance of that lesson early on. I learned the essence of software design far too late in life.",
+      "timestamp": "2017-05-18"
+    },
+    {
+      "id": 3,
+      "title": "Programming is hard. That’s precisely why you should learn it.",
+      "image_url": "https://cdn-images-1.medium.com/max/2000/1*brjYnVlXwM3j_SWXImT0Rg.png",
+      "description": "Spatial computing is beginning the slow crawl to maturity. As the technology develops into something simultaneously more complex and also more stable, new areas of possibility open and grow. Since the beginning, avid enthusiasts have seen hope of a reformation of the real estate industry with the help of spatial computing, but it’s only now that real solutions are starting to be feasible.",
+      "timestamp": "2017-07-07"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1, 
       "comments": [
         {
           "name": "Andy Bettisworth",
@@ -63,11 +82,7 @@
       ]
     },
     {
-      "id": 2,
-      "title": "Composing Software: An Introduction",
-      "image_url": "https://cdn-images-1.medium.com/max/800/1*uVpU7iruzXafhU2VLeH4lw.jpeg",
-      "description": "In my first high school programming class, I was told that software development is “the act of breaking a complex problem down into smaller problems, and composing simple solutions to form a complete solution to the complex problem.” One of my biggest regrets in life is that I failed to understand the significance of that lesson early on. I learned the essence of software design far too late in life.",
-      "timestamp": "2017-05-18",
+      "id": 2, 
       "comments": [
         {
           "name": "Frederik Krautwald",
@@ -112,10 +127,6 @@
     },
     {
       "id": 3,
-      "title": "Programming is hard. That’s precisely why you should learn it.",
-      "image_url": "https://cdn-images-1.medium.com/max/2000/1*brjYnVlXwM3j_SWXImT0Rg.png",
-      "description": "Spatial computing is beginning the slow crawl to maturity. As the technology develops into something simultaneously more complex and also more stable, new areas of possibility open and grow. Since the beginning, avid enthusiasts have seen hope of a reformation of the real estate industry with the help of spatial computing, but it’s only now that real solutions are starting to be feasible.",
-      "timestamp": "2017-07-07",
       "comments": [
         {
           "name": "Maria T Vidal",

@@ -29,7 +29,7 @@ class InfiniteScroll extends Component {
 
   render () {
     const defaultLoader = (<div>
-                             Loading
+                             Loading&hellip;
                            </div>)
     let childrenList = [this.props.children]
     if (this.props.hasMore) {
