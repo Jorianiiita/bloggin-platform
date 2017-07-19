@@ -9,10 +9,12 @@ class InfiniteScroll extends Component {
   }
 
   componentDidMount () {
-    window.addEventListener('scroll', this.handleScroll)
+    window.addEventListener('touchmove', this.handleScroll) // for mobile browsers
+    window.addEventListener('scroll', this.handleScroll) //for web browsers
   }
 
   componentWillUnmount () {
+    window.removeEventListener('touchmove', this.handleScroll) // for mobile browsers
     window.removeEventListener('scroll', this.handleScroll)
   }
 
