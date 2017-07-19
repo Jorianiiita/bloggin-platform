@@ -12,6 +12,7 @@ class Article extends Component {
     super(props)
     this.state = {
       loading: false,
+      commentsLoading: false,
       data: {},
       comments: []
     }
@@ -23,28 +24,39 @@ class Article extends Component {
 
   componentWillMount () {
     let _this = this
+    this.setState({
+      loading: true
+    })
     this.api.get().then(function (response) {
-      _this.setState({data: response})
+      _this.setState({data: response, loading: false})
     })
   }
 
   getCommentsData() {
     let _this = this
     this.setState({
-      loading: true
+      commentsLoading: true
     })
     this.commentApi.get().then(function (response) {
       _this.setState(function (prevState) {
         let newState = Object.assign({}, prevState)
         newState['comments'] = newState['comments'].concat(response.comments)
-        newState['loading'] = false
+        newState['commentsLoading'] = false
         return newState
       })
     })
   }
 
   render () {
-    let {data, comments} = this.state
+    let {data, comments, loading} = this.state
+    let loadingView = null
+    let articleView = null
+    if(loading) {
+      loadingView = (<div>Loading&hellip;</div>)
+    }
+    else {
+      articleView = (<ArticleTemplate data={data} />)
+    }
     let commentsView = null
     if (!!comments) {
       commentsView = comments.map(function (item, index) {
@@ -68,8 +80,9 @@ class Article extends Component {
     return (
       <Layout>
         <div className='aritle-wrapper'>
-          <ArticleTemplate data={data} />
-          <InfiniteScroll loadMore={this.getCommentsData} hasMore={this.state.loading}>
+          {loadingView}
+          {articleView}
+          <InfiniteScroll loadMore={this.getCommentsData} hasMore={this.state.commentsLoading}>
             {commentsView}
           </InfiniteScroll>
         </div>
