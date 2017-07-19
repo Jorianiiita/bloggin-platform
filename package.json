@@ -20,7 +20,7 @@
   "scripts": {
     "build": "webpack --config config/webpack.development.config.js",
     "watch": "webpack --config config/webpack.development.config.js --watch",
-    "start": "npm run build & node src/server/server.js  "
+    "start": "node_modules/.bin/json-server src/server/db.json & npm run build & node src/server/server.js  "
   },
   "engines": {
     "node": "8.1.0"

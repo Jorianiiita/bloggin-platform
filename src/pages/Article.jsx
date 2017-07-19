@@ -5,15 +5,20 @@ import { getURLParams } from './../modules/lib.js'
 import ArticleTemplate from './../components/articleTemplate.jsx'
 import Comment from './../components/comment.jsx'
 import Layout from './../components/Layout.jsx'
+import InfiniteScroll from './../components/infiniteScroll.jsx'
 
 class Article extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      data: {}
+      loading: false,
+      data: {},
+      comments: []
     }
     this.id = getURLParams()['id']
     this.api = new API({url: API_HOST + 'details' + `/${this.id}`})
+    this.commentApi = new API({url: API_HOST + 'comments' + `/${this.id}`})
+    this.getCommentsData = this.getCommentsData.bind(this)
   }
 
   componentWillMount () {
@@ -23,11 +28,26 @@ class Article extends Component {
     })
   }
 
+  getCommentsData() {
+    let _this = this
+    this.setState({
+      loading: true
+    })
+    this.commentApi.get().then(function (response) {
+      _this.setState(function (prevState) {
+        let newState = Object.assign({}, prevState)
+        newState['comments'] = newState['comments'].concat(response.comments)
+        newState['loading'] = false
+        return newState
+      })
+    })
+  }
+
   render () {
-    let {data} = this.state
+    let {data, comments} = this.state
     let commentsView = null
-    if (!!data.comments) {
-      commentsView = data.comments.map(function (item, index) {
+    if (!!comments) {
+      commentsView = comments.map(function (item, index) {
         let comment = <Comment data={item} />
         let replies = null
         if (!!item.replies) {
@@ -49,7 +69,9 @@ class Article extends Component {
       <Layout>
         <div className='aritle-wrapper'>
           <ArticleTemplate data={data} />
-          {commentsView}
+          <InfiniteScroll loadMore={this.getCommentsData} hasMore={this.state.loading}>
+            {commentsView}
+          </InfiniteScroll>
         </div>
       </Layout>
     )
